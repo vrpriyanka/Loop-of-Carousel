@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="movie">Movie</string>
+    <string name="popular">popular</string>
+    <string name="most_popular_movies">Most Popular Movies</string>
+</resources>

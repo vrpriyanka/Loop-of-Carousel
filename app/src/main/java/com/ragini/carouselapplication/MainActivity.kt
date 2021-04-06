@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
     private fun onPopularMoviesFetched(movies: List<Movie>) {
         popularMoviesAdapter.appendMovies(movies)
         val timer = Timer()
-        timer.scheduleAtFixedRate(AutoScrollTask(), 1000, 5000)
+        timer.scheduleAtFixedRate(AutoScrollTask(), 2000, 5000)
     }
 
     private fun onError() {

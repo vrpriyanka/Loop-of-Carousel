@@ -39,11 +39,11 @@ class MovieAdapter(
         this.movies.addAll(movies)
         notifyItemRangeInserted(
             this.movies.size,
-            itemCount - 1
+            itemCount
         )
     }
 
-    fun removeMovies() {
+    private fun removeMovies() {
         for (i in 0 until itemCount)
             notifyItemRangeRemoved(i, itemCount)
     }
